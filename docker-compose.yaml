@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+    njtransit:
+        build: .
+        #user: 1000:1000
+        volumes:
+            - .:/app:z
+            - /etc/group:/etc/group:ro
+            - /etc/passwd:/etc/passwd:ro
+            - /etc/shadow:/etc/shadow:ro
+        ports:
+            - 8000:8000
+        command: tail -f /dev/null
