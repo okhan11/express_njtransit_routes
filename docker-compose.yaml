@@ -9,5 +9,5 @@ services:
             - /etc/passwd:/etc/passwd:ro
             - /etc/shadow:/etc/shadow:ro
         ports:
-            - 8000:8000
-        command: tail -f /dev/null
+            - 8888:8888
+        command: jupyter notebook --ip=0.0.0.0 --port=8888

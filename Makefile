@@ -1,10 +1,13 @@
 up:
+	docker-compose up
+
+upd:
 	docker-compose up -d
 
 upf:
-	docker-compose up --build -d
+	docker-compose up --build
 
-run:	up
+run:	upd
 	docker-compose exec njtransit bash
 
 down:
