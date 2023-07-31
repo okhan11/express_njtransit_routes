@@ -2,7 +2,7 @@
 
 As I was exploring good commuting options from NJ to Manhattan (Port Authority Bus Terminal), I wanted to get an overview of places to live and their relative travel duration. Sourcing the data from [NJ Transit's developer portal](https://www.njtransit.com/users/developer-tools), this repo [plots](https://www.google.com/maps/d/edit?mid=1gbrVIEyaYfsTAUQjFQ27qrA-mPYEXhw&usp=sharing) NJ bus stops with an express, non-stop service to the PABT.
 
-![Map of NJ Transit Bus stops with non-stop service to PABT](static/express_njtransit_routes.png?raw=true "NJ Transit Bus stops with non-stop service to PABT")
+[![Map of NJ Transit Bus stops with non-stop service to PABT](static/express_njtransit_routes.png?raw=true "NJ Transit Bus stops with non-stop service to PABT")](https://www.google.com/maps/d/edit?mid=1gbrVIEyaYfsTAUQjFQ27qrA-mPYEXhw&usp=sharing)
 
 ## Getting Started
 
